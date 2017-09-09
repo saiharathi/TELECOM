@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="home.Home" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/Home.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="nav"/>
+
+<ul>
+<li class="dropdown" ><a href="#" class="dropbtn">Profile</a>
+ <div class="dropdown-content"/>
+      <a href="ViewProfile.aspx">View Profile</a>
+      <a href="ChangePassword.aspx">Change Password</a>
+	  </li>
+   
+<li class="dropdown" ><a href="#" class="dropbtn">My Bill</a>
+   <div class="dropdown-content"/>
+      <a href="#">View Bill</a>
+      <a href="#">Payment</a>
+      
+</li>
+<li><a href="#">ModifyBillPlan</a></li>
+<li><a href="#">UnbilledAmount</a></li>
+<li><a href="#">Call</a></li>
+<li><a href="#">Notifications</a></li>
+</ul>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
