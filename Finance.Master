@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Finance.master.cs" Inherits="FinanceTBS.Finance" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Finance</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="CSS/Finance.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+           
+
+<div class="nav"/>
+<ul><li class="dropdown" ><a href="#" class="dropbtn">Generate Bills</a>
+   <div class="dropdown-content"/>
+<a href="SingleUser.aspx">Single User</a>
+<a href="AllUsers.aspx">All Users</a>
+
+   
+</li>
+
+<li><a href="Notification.aspx">Notifications</a></li>
+    <li><a href=" Change Password.aspx">Change Password</a></li>
+
+</ul>
+
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

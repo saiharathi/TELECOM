@@ -1,5 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true"   MasterPageFile="~/Backend.Master"  CodeBehind="Change Password.aspx.cs" Inherits="TBSProject.Change_Password" %>
- <asp:Content ContentPlaceHolderID="ContentPlaceHolder1" runat="server">          
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Finance.Master" CodeBehind="Change Password.aspx.cs" Inherits="FinanceTBS.Change_Password" %>
+
+
+            <asp:Content ContentPlaceHolderID="ContentPlaceHolder1" runat="server">          
              
 
    
@@ -58,5 +60,4 @@
    </asp:Table>
    
    </asp:Content>
-
-     
+       

@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace FinanceTBS
 {
-    public partial class Change_Password : System.Web.UI.Page
+    public partial class Finance : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
